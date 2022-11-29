@@ -1,0 +1,73 @@
+[16-Sep-2020 18:10:59 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:10:59 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[16-Sep-2020 18:11:50 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:11:50 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[16-Sep-2020 18:12:08 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:12:08 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[16-Sep-2020 18:12:11 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:12:11 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[16-Sep-2020 18:13:18 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:13:18 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[16-Sep-2020 18:13:31 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:13:31 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[16-Sep-2020 18:13:53 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:13:53 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[16-Sep-2020 18:19:42 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:19:42 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[16-Sep-2020 18:35:26 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:35:26 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[16-Sep-2020 18:37:36 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:37:36 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[16-Sep-2020 18:38:06 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[16-Sep-2020 18:38:06 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[17-Sep-2020 09:50:37 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[17-Sep-2020 09:50:37 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[17-Sep-2020 09:53:00 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[17-Sep-2020 09:53:00 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[17-Sep-2020 09:53:11 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[17-Sep-2020 09:53:11 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[17-Sep-2020 09:54:09 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[17-Sep-2020 09:54:09 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[17-Sep-2020 09:59:46 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[17-Sep-2020 09:59:46 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[17-Sep-2020 10:00:22 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[17-Sep-2020 10:00:22 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[17-Sep-2020 10:13:42 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 10:22:44 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 10:24:44 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 10:28:54 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 10:30:11 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 10:48:19 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 10:49:59 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 10:56:58 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 15
+[17-Sep-2020 11:04:21 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 27
+[17-Sep-2020 11:04:21 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 7
+[17-Sep-2020 11:06:51 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 15
+[17-Sep-2020 11:06:51 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 5
+[17-Sep-2020 11:10:19 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 15
+[17-Sep-2020 11:10:19 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 5
+[17-Sep-2020 11:13:59 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 15
+[17-Sep-2020 11:13:59 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 5
+[17-Sep-2020 11:17:34 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function usuario_autenticado() in /home2/gamecl/co.123game.cl/dashboard.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/gamecl/co.123game.cl/dashboard.php on line 3
+[17-Sep-2020 11:34:27 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 11:34:27 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 4
+[17-Sep-2020 11:35:05 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 11:35:05 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 4
+[17-Sep-2020 11:35:50 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 11:35:50 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 4
+[17-Sep-2020 11:40:40 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 11:40:40 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 4
+[17-Sep-2020 11:48:40 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 4
+[17-Sep-2020 11:51:15 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 4
+[17-Sep-2020 11:53:16 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[17-Sep-2020 11:53:16 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 4
+[18-Sep-2020 08:37:29 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 4
+[17-Oct-2020 05:47:59 America/Santiago] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection timed out in /home2/gamecl/co.123game.cl/includes/bd_coneccion.php on line 2
+[17-Oct-2020 05:47:59 America/Santiago] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home2/gamecl/co.123game.cl/includes/bd_coneccion.php on line 4
+[03-Dec-2020 15:14:40 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[03-Dec-2020 15:14:40 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 4
+[03-Dec-2020 15:15:08 America/Santiago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 14
+[03-Dec-2020 15:15:08 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gamecl/co.123game.cl/templates/header.php:1) in /home2/gamecl/co.123game.cl/includes/sesiones.php on line 4
