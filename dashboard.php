@@ -85,11 +85,21 @@ MONTH(fecha_venta) = MONTH(NOW())");
         <div class="card">
 
             <div class="card-header">
-                <h3 class="card-title">Dashboard
+                <h3 class="card-title">Dashboard 
                     <div class="container">
                 </h3>
+                
+                <div class="d-flex justify-content-end">
+                 <h3 class="card-title">   <a href="pies3.php" class="btn btn-sm btn-primary">
+                 <i class="fas fa-chart-line"></i> Ventas
+                    </a>
+                    <div class="container">
+                </h3> </a>
+                </div>
+
                 <div class="card-tools">
                 </div>
+                
             </div>
             <div class="card-body">
                 <!-- Small Box (Stat card) -->

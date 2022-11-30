@@ -116,6 +116,9 @@ document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
 
 
 
+
+
+
 <!-- JQVMap -->
 <script src="js/jquery.vmap.min.js"></script>
 
@@ -150,7 +153,7 @@ document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
 		<script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
 
-  
+
 
 <!-- Load plotly.js into the DOM -->
 <script>

@@ -63,6 +63,17 @@ $cuentalocales = $coneccion->query($sql);
     <div class="card">
       <div class="card-header">
         <h3 class="card-title">Ventas en tiempo real</h3>
+
+        <!-- boton ventas -->
+        <div class="d-flex justify-content-end">
+                 <h3 class="card-title">   <a href="pies3.php" class="btn btn-sm btn-primary">
+                 <i class="fas fa-chart-line"></i> Ventas
+                    </a>
+                    <div class="container">
+                </h3> </a>
+                </div>
+
+         <!-- fin boton ventas -->
         
     <div class="card-tools">
 

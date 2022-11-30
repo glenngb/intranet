@@ -63,7 +63,18 @@ $ventadia =  $coneccion->query("SELECT sum(precio_total)  as ventadia FROM punto
 
     <!-- Default box -->
     <div class="card ">
+
+    <!-- Boton Ventas por local -->
+    <div class="d-flex justify-content-end">
+                 <h3 class="card-title">   <a href="sales.php" class="btn btn-sm btn-primary">
+                 <i class="fas fa-chart-line"></i> Ventas por local
+                    </a>
+                    <div class="container">
+                </h3> </a>
+                </div>
+    <!-- Fin Boton Ventas por local -->
       <div class="card-header">
+        
        
           <div class="row">
             <div class="col">
