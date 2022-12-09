@@ -153,6 +153,27 @@ $ventadia =  $coneccion->query("SELECT sum(precio_total)  as ventadia FROM punto
 
     <!-- TERMINO CUADROS -->
 
+    <!-- COMIENZO PROGRESS BAR -->
+    <div class="progress" >
+      <div id="bar" class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+        <span class="sr-only">0% Complete</span>
+      </div>
+    </div>
+    <script>
+      var progreso = 0;
+      var idIterval = setInterval(function(){
+        // Aumento en 10 el progeso
+        progreso +=1;
+        $('#bar').css('width', progreso + '%');
+       
+      //Si llegó a 100 elimino el interval
+        if(progreso == 100){
+       clearInterval(idIterval);
+      }
+      },2250)
+      ;
+    </script>
+     <!-- FIN PROGRESS BAR -->
 
     <div class="card-footer">
       Esta página se actualiza automáticamente cada 5 minutos | Última actualización <?php

@@ -1,5 +1,5 @@
 <?php 
-session_start();// se agrega para subor al hosting
+session_start();// se agrega para subir al hosting
 
 include_once ('includes/sesiones.php');
   //Validamos que el nivel de usuario sea 1. Para permitir el acceso a este archivo.

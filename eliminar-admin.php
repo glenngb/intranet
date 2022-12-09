@@ -1,6 +1,6 @@
 
 <?php
-session_start();// se agrega para subor al hosting
+session_start();// se agrega para subir al hosting
 
 include_once ('includes/bd_coneccion.php');
 //Código para eliminar un administradores

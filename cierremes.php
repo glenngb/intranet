@@ -187,8 +187,8 @@ $('#cierremes').DataTable({
     "order": [
         [1, "asc"]
     ], // ordena de forma descendente por ariculo, la columna 1 -articulo-
-    'paging': true, //Conpagina
-    'pageLength': 20, //conpagina a partir de 6 registros.
+    'paging': true, //Paginacion
+    'pageLength': 20, //Paginacion a partir de 20 registros.
     "language": { //traduce lo que se encuentra en ingles en la tabla
         "lengthMenu": "Mostrar _MENU_ registros por pagina",
         "info": "Mostrando pagina _PAGE_ de _PAGES_",
