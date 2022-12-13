@@ -37,13 +37,8 @@ WHERE
 DAY(fecha_venta) = DAY(CURDATE())
     AND MONTH(fecha_venta) = MONTH(CURDATE())
     AND dia = DAY(NOW())");
-
-
-
 //Venta dia
 $ventadia =  $coneccion->query("SELECT sum(precio_total)  as ventadia FROM punto_venta.venta where DAY (fecha_venta)= DAY(curdate())AND month (fecha_venta)= month(curdate())");
-
-
 ?>
 
 
@@ -66,7 +61,6 @@ $ventadia =  $coneccion->query("SELECT sum(precio_total)  as ventadia FROM punto
       <div id="bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
         <span class="sr-only">0% Complete</span>
         Cargando
-        
       </div>
     </div>
     <script>
