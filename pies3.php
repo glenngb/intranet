@@ -75,7 +75,7 @@ $ventadia =  $coneccion->query("SELECT sum(precio_total)  as ventadia FROM punto
         if(progreso == 100){
        clearInterval(idIterval);
       }
-      },2910)
+      },2949)
       ;
     </script>
      <!-- FIN PROGRESS BAR -->

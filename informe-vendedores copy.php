@@ -104,7 +104,7 @@ $cuentavendedores = $coneccion->query($sql);
                                 <th>
                                     <center>Cargo</center>
                                 </th>
-                                 <th>
+                                <th>
                                      <center>Password</center>
                                 </th>
                             </tr>
@@ -140,9 +140,8 @@ $cuentavendedores = $coneccion->query($sql);
                                 <center><?php echo $row['cargo']; ?></center>
                                 </td>
                                 
-                                <td><p><a href="javascript:mostrar();">Mostrar</a></p>
-
-                                <div id="flotante" style="display:none;">  <center><?php echo $row['password']; ?></center></div>
+                                <td>
+                                <div id="caja" onclick="divLogin()"><center><?php echo $row['password']; ?></center></div>
                                 
                                 </td>
                                 
@@ -171,16 +170,24 @@ $cuentavendedores = $coneccion->query($sql);
 <!-- /.content-wrapper -->
 
 
-<script languague="javascript">
-        function mostrar() {
-            div = document.getElementById('flotante');
-            div.style.display = '';
-        }
+<script>
+var clic = 1;
 
-        function cerrar() {
-            div = document.getElementById('flotante');
-            div.style.display = 'none';
-        }
+function divLogin(){ 
+
+   if(clic==1){
+    document.getElementById("caja").style.display = "none";   
+
+   clic = clic + 1;
+
+   } else{
+
+    document.getElementById("caja").style.display = "block";
+
+    clic = 1;
+
+   }   
+}
 </script>
 
 <?php   

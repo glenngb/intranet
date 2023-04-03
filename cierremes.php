@@ -82,7 +82,7 @@ $resultado = $coneccion->query($sql);
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title"> <?php
-                $localesActual=22;
+                $localesActual=21;
                   while($row = $cie->fetch_array(MYSQLI_ASSOC)) 
                     if ($row['cierrecount'] ==$localesActual) {
                     echo "<blink><font color='#00E511'> <i class='fas fa-check'></font></blink></i>" . ' Todos los locales cierran mes | han cerrado mes '.$row['cierrecount'].' locales de '.$localesActual;

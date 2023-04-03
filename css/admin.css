@@ -119,3 +119,15 @@ p.tipo_evento {
 	transition: height .4s;
 
 }
+
+.progratitu2 {
+    cursor: pointer;
+  }
+  
+  .progracont .progradesc2 {
+    display: none;
+  }
+  
+  .progracont.activo .progradesc2 {
+    display: block;
+  }
