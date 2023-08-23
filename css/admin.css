@@ -131,3 +131,30 @@ p.tipo_evento {
   .progracont.activo .progradesc2 {
     display: block;
   }
+
+  /*.iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}*/
+ /*Color al tabla directorio_locales*/
+    .color-morado {
+        background-color: purple;
+        color: white;
+    }
+
+    .color-amarillo {
+        background-color: yellow;
+    }
+
+    .color-pink {
+        background-color: rgb(255, 0, 106);
+    }
+
+
+    .alert-custom {
+        color: #ffffff; /* Color del texto */
+        background-color: #300A55; /* Color morado */
+        border-color: #300A55; /* Color del borde */
+    }
+

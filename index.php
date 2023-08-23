@@ -9,9 +9,9 @@
 ?>
 <body class="hold-transition sidebar-mini sidebar-collapse login-page">
   <div class="login-box">
-    <div class="login-logo">
-      <a href="#"><b>Atarraya</b>Admin</a>
-    </div>
+   <!--  <div class="login-logo">
+      <a href="#"><b><Atarraya/b>Admin</a>
+    </div>-->
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">

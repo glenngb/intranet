@@ -198,9 +198,9 @@ $('#compras').DataTable( {
         ],
 
 
-"order": [[1, "asc"]], // ordena de forma descendente por ariculo, la columna 1 -articulo-
+"order": [[0, "asc"]], // ordena de forma descendente por ariculo, la columna 1 -articulo-
 'paging'      : true, //Conpagina
-      'pageLength'  : 10, //conpagina a partir de 6 registros.
+      'pageLength'  : 15, //conpagina a partir de 6 registros.
   "language":{  //traduce lo que se encuentra en ingles en la tabla
     "lengthMenu": "Mostrar _MENU_ registros por página",
     "info": "Mostrando página _PAGE_ de _PAGES_",

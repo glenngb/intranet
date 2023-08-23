@@ -5,8 +5,8 @@ include_once('includes/sesiones.php');
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="dashboard.php" class="brand-link">
-        <img src="img/atarraya.png" alt="Atarraya Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Atarraya Admin</span>
+        <!-- <img src="img/logo_cokase.png" alt="Atarraya Logo" class="brand-image img-circle elevation-3" style="opacity: .8">-->
+        <span class="brand-text font-weight-light">Intranet COKASE</span>
     </a>
 
     <!-- Sidebar -->
@@ -15,6 +15,8 @@ include_once('includes/sesiones.php');
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
                 <img src="img/logo_cokase.png" class="rounded elevation-2" alt="User Image">
+
+                
             </div>
             <div class="info">
                 <a href="#" class="d-block">
@@ -53,7 +55,7 @@ include_once('includes/sesiones.php');
 
                         <i class="nav-icon far fa-file-alt"></i>
                         <p>
-                            Informes
+                            Utilidades
                             <i class="fas fa-angle-left right"></i>
 
                         </p>
@@ -61,54 +63,41 @@ include_once('includes/sesiones.php');
                     <ul class="nav nav-treeview">
 
                         <li class="nav-item">
-                            <a href="informe-compras.php" class="nav-link">
-                                <i class="fas fa-money-check-alt nav-icon"></i>
-                                <p>Compras</p>
+                            <a href="directorio.php" class="nav-link">
+                            <i class="fas fa-user-tie nav-icon"></i>    
+                                <p>Directorio</p>
                             </a>
                         </li>
+
 
                         <li class="nav-item">
-                            <a href="informe-articulos.php" class="nav-link">
+                            <a href="maps.php" class="nav-link">
 
 
-                                <i class="far fa-list-alt nav-icon"></i>
-                                <p>Artículos</p>
+                                <i class="fas fa-map-marker-alt nav-icon"></i>
+                                <p>Sucursales</p>
                             </a>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="informe-precios_especiales.php" class="nav-link">
-
-
-                                <i class="far fa-list-alt nav-icon"></i>
-                                <p>Precios especiales</p>
-                            </a>
-                        </li>
 
 
                         <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                         <i class="nav-icon far fa-list-alt nav-icon"></i>
                         <p>
-                        Nota de crédito
+                        Gestor de archivos
                             <i class="fas fa-angle-left right"></i>
 
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="informe-nc.php" class="nav-link">
+                            <a href="gestion-locales.php" class="nav-link">
                                 <i class="fa fa-list-ul nav-icon"></i>
-                                <p>NC</p>
+                                <p>Locales</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="informe-ncdevolucion.php" class="nav-link">
-
-                                <i class="fas fa-exchange-alt"></i>
-                                <p>Devolución</p>
-                            </a>
-                        </li>
+                       
 
                         <li class="nav-item">
 
@@ -122,9 +111,9 @@ include_once('includes/sesiones.php');
 
 
                         <li class="nav-item">
-                            <a href="informes-drive.php" class="nav-link">
-                                <i class="fab fa-google-drive nav-icon"></i>
-                                <p>Informes Drive</p>
+                            <a href="insumos.php" class="nav-link">
+                            <i class="fa fa-tags" aria-hidden="true"></i>
+                                <p>Solicitud de insumos</p>
                             </a>
                         </li>
 
@@ -225,14 +214,7 @@ include_once('includes/sesiones.php');
                                 <p>Fol. Restantes</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="maps.php" class="nav-link">
-
-
-                                <i class="fas fa-map-marker-alt nav-icon"></i>
-                                <p>Sucursales</p>
-                            </a>
-                        </li>
+                       
                     </ul>
                 </li>
                 <?php //Código para restringir el acceso al menú. solo perfil Administradores pueden visualizar en menú.

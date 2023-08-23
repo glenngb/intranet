@@ -1,9 +1,10 @@
 <?php 
-session_start();// se agrega para subir al hosting
+session_start();
 include_once ('templates/header.php');
 include_once ('templates/barra-superior.php');
 include_once ('templates/navegacion-lateral.php');
 ?>
+
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -11,12 +12,12 @@ include_once ('templates/navegacion-lateral.php');
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>COKASE</h1>
+            <!--<h1>Blank Page</h1>-->
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Informes COKASE</li>
+              <li class="breadcrumb-item"><a href="dashboard.php">Home</a></li>
+              <li class="breadcrumb-item active">Solicitud de insumos</li>
             </ol>
           </div>
         </div>
@@ -29,26 +30,24 @@ include_once ('templates/navegacion-lateral.php');
       <!-- Default box -->
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Análisis BI</h3>
+          <h3 class="card-title">Solicitud de insumos</h3>
+
           <div class="card-tools">
+           
           </div>
         </div>
         <div class="card-body">
-        <iframe title="ProyectoCokase" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=33035512-0483-4b82-a17a-28ce6a93ea20&autoAuth=true&ctid=7bef8491-da9b-48e1-bb4d-8291d0c37a00&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXBhYXMtMS1zY3VzLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameborder="0" allowFullScreen="true"></iframe>
-			</div>
-		</div>
-    <!-- END Datatables -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf11k0g6IpEyks_b_5lVbVyvgfIsBgzWEDvQsiDJ19jfVlHsw/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
         </div>
          <!-- /.card-body -->
          <div class="card-footer">
-                        Compras
+                        Footer
                     </div>
                     <!-- /.card-footer-->
                 </div>
                 <!-- /.card -->
       </div>
       <!-- /.card -->
-
     </section>
     <!-- /.content -->
   </div>

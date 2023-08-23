@@ -7,17 +7,29 @@ include_once ('templates/navegacion-lateral.php');
 
 <?php
 include_once('includes/bd_coneccion.php');  // llama al archivo para la conexion a la bd - 
+$where = "";
 
-$sql = "SELECT 
-nombre, DATE_FORMAT(cumpleano, '%d-%m') AS cumpleano
-FROM
-intranet.directorio
-WHERE
-DATE_FORMAT(cumpleano, '%m') >= DATE_FORMAT(CURDATE(), '%m')
-ORDER BY
-DATE_FORMAT(cumpleano, '%m-%d') ASC
-LIMIT 4;
-"; 
+if (!empty($_POST)) //condicion para buscar
+{
+    $valor = $_POST['numero'];
+    if (!empty($valor)) {
+        $where = "WHERE a.numero LIKE '%$valor%'"; //  con el % busca los valores en la tabla que contenga alguna coincidencia, se puede modificar -- en este caso busca por el nombre, se puede modificar para que sea en otro campo
+    }
+
+    //fin condicion para buscar
+}
+$sql = "SELECT d.nombre, EXTRACT(DAY FROM d.cumpleano) as dia,
+COALESCE(COUNT(filtered_data.nombre), 0) as cuenta
+FROM intranet.directorio d
+LEFT JOIN (
+SELECT nombre, EXTRACT(DAY FROM cumpleano) as dia
+FROM intranet.directorio
+WHERE MONTH(cumpleano) = MONTH(CURDATE())
+GROUP BY nombre, dia
+) AS filtered_data
+ON d.nombre = filtered_data.nombre AND EXTRACT(DAY FROM d.cumpleano) = filtered_data.dia
+GROUP BY d.nombre, dia;
+"; // eLimit limita a que se muestre solo 10 registros en la tabla, es opcional colocarlo
 $resultado = $coneccion->query($sql);
 ?>
 
@@ -47,7 +59,7 @@ $resultado = $coneccion->query($sql);
       <div class="card">
         <div class="card-header">
 
-        <div class="alert alert-custom" role="alert">
+        <div class="alert alert-primary" role="alert">
           <h3 class="card-title">Bienvenido</h3>
 
 <!--TEST INDICADORES -->
@@ -103,42 +115,46 @@ echo 'UF $' .$xml2->UFs[0]->UF->Valor.' | ';
         <div class="card-body">
           <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn" style="background-color: #300A55; color: white;">Go somewhere</a>
-
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
         <div class="card-footer text-muted">
           2 days ago
         </div>
       </div>
     </div>
-
-    
-    <div class="col-md-3">
-      
-      <div class="card border-primary mb-3" style="max-width: 18rem;">
-      
-        <div class="card-header  text-primary">Próximos Cumpleaños  <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-                     </div>
-        <div class="card-body  text-primary">
-          
+    <div class="col-md-5  ">
+      <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+        <div class="card-header">Cumpleaños  
+                      <script>
+                        var meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto",
+                            "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                        var f = new Date();
+                        document.write(meses[f.getMonth()] + " de " + f.getFullYear());
+                    </script></div>
+        <div class="card-body">
           <h5 class="card-title">
        Felicitaciones para:
           </h5>
           <p class="card-text">
   <?php
+  $rows_found = false; // Variable para controlar si se encontraron registros
 
+  while ($row = $resultado->fetch_array(MYSQLI_ASSOC)) {
+    if ($row['cuenta'] > 0) {
+      if (!$rows_found) {
+        echo '<ul>';
+        $rows_found = true;
+      }
+      echo '<li>' . $row['nombre'] . ' - Día ' . $row['dia'] . '</li>';
+    }
+  }
 
-  while ($row = $resultado->fetch_array(MYSQLI_ASSOC)) { ?>
-   
-        <ul>
-      
-     
-     <li> <?php echo $row['nombre'] ."<span class='badge bg-warning text-dark'><blink><font color='#ff0000'><b>". $row['cumpleano']. "</b></font></blink></span>"; ?> </li>  
-   
-
- </ul>
- <?php } ?>
-
+  if (!$rows_found) {
+    echo 'No hay cumpleaños este mes 😞';
+  } else {
+    echo '</ul>';
+  }
+  ?>
 </p>
 
 
@@ -221,6 +237,11 @@ echo 'UF $' .$xml2->UFs[0]->UF->Valor.' | ';
 
 
 <hr>
+
+
+
+  
+
 
 </div>
 
