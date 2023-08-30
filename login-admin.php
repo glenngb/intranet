@@ -11,7 +11,7 @@ if($_POST['login-admin']){
 
         include_once ('includes/bd_coneccion.php');
 
-        $stmt = $coneccion->prepare("SELECT * FROM punto_venta_prueba.administradores WHERE usuario = ?");
+        $stmt = $coneccion->prepare("SELECT * FROM intranet.administradores WHERE usuario = ?");
         $stmt->bind_param("s",$usuario);
         $stmt->execute();
 
