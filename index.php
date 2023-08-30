@@ -24,7 +24,7 @@
 
       
   <div class="login-box">
-   <!--  <div class="login-logo">
+   <!--  test <div class="login-logo">
       <a href="#"><b><Atarraya/b>Admin</a>
     </div>-->
     <!-- /.login-logo -->
