@@ -7,22 +7,7 @@
   include_once ('templates/header.php');
 
 ?>
-
-
-
-	  
-	<div class="sidenav">
-
-	<div class="col-sm-12 side_menu">
-  
-  	
-
-    <!-- INICIO-->
-
-
-    <body class="login-page">
-
-      
+<body class="hold-transition sidebar-mini sidebar-collapse login-page">
   <div class="login-box">
    <!--  <div class="login-logo">
       <a href="#"><b><Atarraya/b>Admin</a>
@@ -30,8 +15,7 @@
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">
-      <img src="img/k.png" alt="Logo" style=display: block; margin: 0 auto; margin-bottom: 10px; margin-top: 30px">
-        <H5 class="login-box-msg">Intranet <b>COKASE</b></H5>
+        <p class="login-box-msg">Bienvenido</p>
       
 
         <form name="login-admin-form" id="login-admin"  method="post" action="login-admin.php">
@@ -53,7 +37,16 @@
               </div>-->
             </div>
           </div>
-      
+        <!--  <div class="row">
+            <div class="col-8">
+              <div class="icheck-primary">
+                <input type="checkbox" id="remember">
+                <label for="remember">
+                  Recuerdame
+                </label>
+              </div>
+            </div>-->
+            <!-- /.col -->
             <div class="col-12">
               <input  type="hidden" name="login-admin" value="1">
               <button type="submit"   class="btn btn-primary btn-block">Iniciar Sesión</button>
@@ -63,25 +56,13 @@
         </form>
  </div>
       <!-- /.login-card-body -->
-    
-  </div>
-  
     </div>
-    
- 
-    <!-- TERMINO-->
-	 
-	
-	  
-	  
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
+    <div style="color:#fff">
+        <p style="text-align: center;">Desarrollado por Glenn Garcia</p><br>
+      </div>
+  </div>
 
-	 
-
-<script type="text/javascript">
+  <script type="text/javascript">
 function mostrarPassword(){
 		var cambio = document.getElementById("contrasenia");
 		if(cambio.type == "password"){
@@ -104,5 +85,4 @@ function mostrarPassword(){
 <?php   
       include_once ('templates/footer.php');
   ?>
-
 

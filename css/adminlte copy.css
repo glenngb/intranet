@@ -20881,13 +20881,9 @@ html.maximized-card {
 
 .login-page,
 .register-page {
-    opacity: 0.9;
-    fill-opacity: 0.9;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url("../img/hero-bg.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
+    background: #0080ff;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -20895,16 +20891,12 @@ html.maximized-card {
     height: 100vh;
     -ms-flex-pack: center;
     justify-content: center;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
 .login-box,
 .register-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  
+    width: 360px;
 }
 
 @media (max-width: 576px) {
@@ -20920,10 +20912,10 @@ html.maximized-card {
     background: #ffffff;
     border-top: 0;
     color: #666;
-    padding: 40px;
+    padding: 20px;
     -webkit-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 2px 3px 6px 0px rgba(242, 218, 218, 0.75);
+    box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
 }
 
 .login-card-body .input-group .form-control,

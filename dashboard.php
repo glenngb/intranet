@@ -101,14 +101,21 @@ echo 'UF $' .$xml2->UFs[0]->UF->Valor.' | ';
           Featured
         </div>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn" style="background-color: #300A55; color: white;">Go somewhere</a>
+          <!--<h5 class="card-title">Special title treatment</h5>-->
+          <div style="text-align: justify;">
+    <p class="card-text">
+        ¡Bienvenidos a nuestra intranet empresarial!
+    </p>
+    
+    <p>
+        En un mundo impulsado por la transformación digital, hemos creado este espacio virtual para fortalecer la comunicación y la colaboración en nuestra organización. Nuestra intranet es el epicentro de la colaboración digital, donde las ideas se comparten,
+        los proyectos cobran vida y juntos avanzamos hacia un futuro más conectado e innovador.
+    </p>
+</div>
+          <a href="#" class="btn" style="background-color: #300A55; color: white;">Ir a novedades</a>
 
         </div>
-        <div class="card-footer text-muted">
-          2 days ago
-        </div>
+       
       </div>
     </div>
 
@@ -149,7 +156,37 @@ echo 'UF $' .$xml2->UFs[0]->UF->Valor.' | ';
 </div>
 
 <hr>
+<!-- NUESTRAS MARCAS-->
 
+<div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="image-container">
+          <img src="img/cokase.png" alt="Imagen 1" class="img-fluid custom-img">
+          <div class="image-overlay">
+            <p>Amplio surtidos de calzados para toda la familia, modelos para mujer y hombre, además calzado infantil</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="image-container">
+          <img src="img/mas.png" alt="Imagen 2" class="img-fluid custom-img">
+          <div class="image-overlay">
+            <p>Modelos de temporadas y muchísimas ofertas para mujer, hombre e infantil</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="image-container">
+          <img src="img/pasarela.png" alt="Imagen 3" class="img-fluid custom-img">
+          <div class="image-overlay">
+            <p>Tienda especializada para mujer y también para la mas pequeñitas de la casa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- FIN UESTRAS MARCAS-->
 
           <div class="card-tools">
            
@@ -204,10 +241,10 @@ echo 'UF $' .$xml2->UFs[0]->UF->Valor.' | ';
       <h5 class="card-title"></h5>
       <p class="card-text"><div class="list-group">
   <a href="#" class="list-group-item list-group-item-action active">
-   Cambio lista de precios
+  Enlaces de interés 
   </a>
-  <a href="#" class="list-group-item list-group-item-action">02-08-2023</a>
-  <a href="#" class="list-group-item list-group-item-action">09-08-2023</a>
+  <a href="archivos.php" class="list-group-item list-group-item-action">Archivos para tu gestión</a>
+  <a href="#" class="list-group-item list-group-item-action">Nuestras marcas</a>
   <a href="#" class="list-group-item list-group-item-action">16-08-2023</a>
   <a href="#" class="list-group-item list-group-item-action">23-08-2023</a>
   <a href="#" class="list-group-item list-group-item-action">30-08-2023</a>
@@ -228,7 +265,7 @@ echo 'UF $' .$xml2->UFs[0]->UF->Valor.' | ';
 
 
         </div>
-        <iframe src="https://widgets.woxo.tech/3e7ccd80-0768-445f-b89f-f7014d7032cd#mission-control-component-1ed05bf8-897e-4894-bbab-8e6db2f2ac96" style="width: 100%; height: 100vh; border: none; overflow: hidden;"></iframe>
+        <iframe src="https://widgets.woxo.tech/3e7ccd80-0768-445f-b89f-f7014d7032cd#mission-control-component-1ed05bf8-897e-4894-bbab-8e6db2f2ac96" style="width: 100%; height: 360px; border: none; overflow: hidden;"></iframe>
 
          <!-- /.card-body -->
          <div class="card-footer">

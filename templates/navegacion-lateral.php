@@ -14,7 +14,7 @@ include_once('includes/sesiones.php');
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="img/logo_cokase.png" class="rounded elevation-2" alt="User Image">
+                <img src="img/k.png" class="rounded elevation-2" alt="User Image">
 
                 
             </div>
@@ -33,9 +33,11 @@ include_once('includes/sesiones.php');
                with font-awesome or any other icon font library -->
                 <li class="nav-item ">
                     <a href="dashboard.php" class="nav-link">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        
+                        <i class="nav-icon fa fa-home"></i>
+
                         <p>
-                            Dashboard
+                            Inicio
                         </p>
                     </a>
                 </li>
@@ -168,13 +170,10 @@ include_once('includes/sesiones.php');
 
 
                         <li class="nav-item">
-                            <a href="cierremes.php" class="nav-link">
+                            <a href="gastos.php" class="nav-link">                           
+                            <i class="fas fa-money-check-alt nav-icon"></i>
 
-
-                                <i class="fas fa-calendar-check nav-icon"></i>
-
-
-                                <p>Cierre de mes</p>
+                                <p>Gastos</p>
                             </a>
                         </li>
 
