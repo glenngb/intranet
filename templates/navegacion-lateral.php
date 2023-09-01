@@ -177,6 +177,16 @@ include_once('includes/sesiones.php');
                             </a>
                         </li>
 
+                        
+                        <li class="nav-item">
+                            <a href="herramientas.php" class="nav-link">                           
+                            
+                            <i class="fa fa-wrench nav-icon" aria-hidden="true"></i>
+
+                                <p>Herramientas</p>
+                            </a>
+                        </li>
+
                         <li class="nav-item">
                             <a href="informe-vendedores.php" class="nav-link">
 

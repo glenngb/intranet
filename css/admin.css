@@ -169,9 +169,13 @@ p.tipo_evento {
     transition: filter 0.3s, transform 0.3s;
   }
 
-  .custom-img:hover {
+  /*Efecto, al cargar la pagina aparecen en gris luego al hover en la umagen cambia a su color original*/
+  .img-fluid.custom-img {
     filter: grayscale(100%);
-    transform: scale(1.05);
+    transition: filter 0.3s ease;
+}
+  .custom-img:hover {
+    filter: grayscale(0%);
   }
 
   .image-container {

@@ -95,7 +95,7 @@ echo 'UF $' .$xml2->UFs[0]->UF->Valor.' | ';
 
 <div class="container">
   <div class="row">
-    <div class="col-md-7">
+    <div class="col-md-9">
       <div class="card text-center">
         <div class="card-header">
           Featured
